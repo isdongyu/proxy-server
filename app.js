@@ -24,4 +24,4 @@ server.on('clientError', (err, socket) => {
   socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
 });
 
-server.listen(8000, '127.0.0.1');
+server.listen(8000);
